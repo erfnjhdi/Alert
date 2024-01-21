@@ -1,0 +1,22 @@
+{
+  "824": {
+    "Location": "df",
+    "Activity": "df",
+    "People": [
+      {
+        "Gender": "df",
+        "Race": "df",
+        "Age": "df",
+        "Clothing": "df",
+        "Weapons": "df"
+      },
+      {
+        "Gender": "df",
+        "Race": "df",
+        "Age": "df",
+        "Clothing": "df",
+        "Weapons": "df"
+      }
+    ]
+  }
+}
