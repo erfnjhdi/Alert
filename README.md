@@ -1,7 +1,15 @@
 # Alert
-Please install the correct python module for the code to work correctly
+@Authors: 
+Tony Awaad
+Parsa Erfanmoghaddam
+Sassan Ghazi
+Erfan Jahedi
 
-Google Maps API used in the website to display the map.
+Please install the correct Python module for the code to work correctly
+
+
+
+Google Maps API is used in the website to display the map.
 chat GPT was used to debug and enhance code.
 The logo was designed by logodesign.ai
 Github copilot was used to debug and enhance code.
