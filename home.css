@@ -1,0 +1,103 @@
+.box{
+    padding-block: 40px;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    margin: 40px;
+}
+header img{
+    max-width: 200px;
+    display: block;
+    margin: 0 auto;
+}
+body{
+    background-color: rgb(17,17,31);
+}
+#map {
+  display: flex;
+  align-items: center;
+  height: 400px;
+  padding: 8px 4px 0px 4px;
+  width: 70%;
+  border: 2px solid red;
+  border-radius: 30px;
+  margin-bottom: 10px; /* Adjust as needed */
+}
+
+.map-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+#locationInput {
+  background-color: rgba(255, 0, 0, 0.78);
+  color: white;
+  margin-top: 10px;
+  padding: 8px;
+  font-size: 16px;
+  text-align: center;
+  width: 70%;
+  border-radius: 30px;
+}
+
+#NextBtn {
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: rgb(42, 239, 108);
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+  /*#button{
+    margin-top: 10px;
+    height: 10px;
+    width: 30px;
+    background-color: rgb(245, 245, 247);
+    font-size: large;
+    color: rgb(28, 25, 25);
+    padding: 15px, 32px;
+    text-align: center;
+  }*/
+  .button1{
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    position: fixed;
+    top: 10px; /* Adjust the top position as needed */
+    right: 20px; /* Adjust the right position as needed */
+    padding: 10px 20px;
+    font-size: 22px;
+    text-align: center;
+    border: 2px solid white;
+  }
+  .button2{
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    position: fixed;
+    top: 10px; /* Adjust the top position as needed */
+    right: 145px; /* Adjust the right position as needed */
+    padding: 10px 20px;
+    font-size: 22px;
+    text-align: center;
+    border: 2px solid white;
+  }
+  .button1:hover{
+    background-color: white;
+    color: black;
+    border: 3px solid red;
+  }
+  .button2:hover{
+    background-color: white;
+    color: black;
+    border: 3px solid red;
+  }
+  
