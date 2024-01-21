@@ -120,7 +120,20 @@ form button i{
 .container form .buttons .backBtn,
 .container form .buttons .nextBtn {
     color: #ff0000; /* Red color for button text */
+    background-color: #ffffff; /* Background color for the buttons */
+    padding: 10px 20px; /* Adjust padding as needed */
+    border: 1px solid #ff0000; /* Border for the buttons */
+    border-radius: 5px; /* Border radius for rounded corners */
+    cursor: pointer; /* Add cursor pointer for better UX */
+    transition: background-color 0.3s, color 0.3s; /* Add transition for smooth hover effect */
 }
+
+.container form .buttons .backBtn:hover,
+.container form .buttons .nextBtn:hover {
+    background-color: red; /* Change background color on hover */
+    color: #ffffff; /* Change text color on hover */
+}
+
 
 @media (max-width: 780px){
     .container form{
